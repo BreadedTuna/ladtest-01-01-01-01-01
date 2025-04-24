@@ -84,7 +84,7 @@
     overlay.style.animation = 'glitchout 0.05s infinite alternate';
 
     const chaos = document.createElement('div');
-    chaos.textContent = '███ I SEE YOU ███';
+    chaos.textContent = '███ DONT IP LOG ███';
     chaos.style.cssText = `
       color: white;
       font-size: 4em;
