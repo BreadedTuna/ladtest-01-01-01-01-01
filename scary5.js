@@ -66,7 +66,7 @@
     const data = await res.json();
     ip = data.ip;
   } catch {}
-  const fullText = `I see you...\nYour IP is:\n${ip}`;
+  const fullText = `I see you...\n\n${ip}`;
   let i = 0;
   const type = () => {
     if (i < fullText.length) {
@@ -84,7 +84,7 @@
     overlay.style.animation = 'glitchout 0.05s infinite alternate';
 
     const chaos = document.createElement('div');
-    chaos.textContent = '███ SYSTEM BREACH ███';
+    chaos.textContent = '███ I SEE YOU ███';
     chaos.style.cssText = `
       color: white;
       font-size: 4em;
