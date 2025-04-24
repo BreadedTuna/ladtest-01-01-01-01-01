@@ -62,6 +62,7 @@
     `> ISP: ${data.org}`,
     `> Browser: ${navigator.userAgent}`,
     `> Time of Access: ${new Date().toString()}`,
+    `> Why do you IP log?`,
     '> Monitoring initiated...'
   ];
 
